@@ -15,9 +15,8 @@ from os import environ,getenv
 import logging
 from logging.handlers import RotatingFileHandler
 
-#rohit_1888 on Tg
 #--------------------------------------------
-#Bot token @Botfather
+#Bot token 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8452718305")
 APP_ID = int(os.environ.get("APP_ID", "28408609")) 
 API_HASH = os.environ.get("API_HASH", "d6ddeafb0c189d91b8197ad49103e806")  
