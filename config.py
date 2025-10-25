@@ -17,19 +17,19 @@ from logging.handlers import RotatingFileHandler
 
 #--------------------------------------------
 #Bot token 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7933164185:AAEWJyfAaLh-DmwHRIf0fKxE1OeJa-u0Umg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8215797427:AAHqzOutA6o-aD3Im3X-nUat6hIvARYXkCY")
 APP_ID = int(os.environ.get("APP_ID", "28408609")) 
 API_HASH = os.environ.get("API_HASH", "d6ddeafb0c189d91b8197ad49103e806")  
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002563651230")) 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002599753693")) 
 OWNER = os.environ.get("OWNER", "ind_gamer_1") 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6557934214"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5665480584"))
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
+DB_NAME = os.environ.get("DATABASE_NAME", "filestorevs")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/ind_gamer_1")
